@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Umbrella</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: #f4f4f4;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .services, .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h3 {
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Human Umbrella</h1>
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Where Creativity Shelters Your Ideas</h1>
+        <p>Discover unique designs and digital art to elevate your brand.</p>
+    </div>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="card">
+                <h3>Logo Design</h3>
+                <p>Creative logos tailored for your brand.</p>
+            </div>
+            <div class="card">
+                <h3>Digital Art</h3>
+                <p>High-quality illustrations for various purposes.</p>
+            </div>
+            <div class="card">
+                <h3>Branding</h3>
+                <p>Comprehensive branding solutions for businesses.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Logo Design</h3>
+                <p>Modern, minimalist, or vibrant styles to represent your brand.</p>
+            </div>
+            <div class="card">
+                <h3>Branding Packages</h3>
+                <p>Complete branding solutions, from colors to voice.</p>
+            </div>
+            <div class="card">
+                <h3>Web Graphics</h3>
+                <p>Customized visuals for websites and social media.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>Welcome to Human Umbrella! I am a passionate graphic designer and digital artist, helping clients transform ideas into visually stunning creations. Let's work together to build your brand!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Interested in working together? Drop me a message:</p>
+        <p>Email: <a href="mailto:humanumbrella@example.com">humanumbrella@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Human Umbrella. All rights reserved.</p>
+    </footer>
+</body>
+</html>
